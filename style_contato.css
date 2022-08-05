@@ -1,0 +1,100 @@
+body {
+    background-image: url("FUNDO_CONTATO.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.btn-abrir {
+
+    width: 300px;
+    background-color: #006494;
+}
+
+.btn-voltar {
+    color: #006494;
+}
+
+.modal-header {
+    background-color: black;
+    color: white;
+}
+
+.modal-body {
+    background-color: #006494;
+    color: #e8f1f2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-footer {
+    background-color: #006494;
+    color: white;
+}
+
+.item {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px
+}
+
+.display-2 {
+    color: #e8f1f2;
+    position: relative;
+    margin-top: 250px;
+}
+
+.loader-posicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    border: 6px solid #e5e5e5;
+    border-top-color: #006494;
+    height: 50px;
+    width: 50px;
+    animation: rotacionar 1s infinite;
+    border-radius: 50%;
+}
+
+@keyframes rotacionar {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .modal-body {
+        background-color: #006494;
+        color: #e8f1f2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .item {
+        display: flex;
+        font-size: 1.3rem;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 20px
+    }
+}

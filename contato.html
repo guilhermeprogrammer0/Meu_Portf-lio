@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <link rel="stylesheet" href="reset.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="style_contato.css">
+            <link rel="sortcut icon" href="icone.png"  type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+      
+    </head>
+    <body>
+
+        <section class="botoes">
+            <button type="button" class="btn btn-primary btn-lg btn-abrir" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Contato
+            </button>
+
+            <button type="button" class="btn btn-light btn-lg btn-voltar" id="enviar_inicio" onclick="voltar()">Voltar ao início</button>
+        </section>
+        <div class="loader-posicao">
+        <h1 class="display-2">Voltando ao Início...</h1>
+        <div class="loader">
+        </div>
+
+        </div>
+        <article>
+            <div class="modal fade" id="exampleModal" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Área de Contato</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="item">
+              <p> Guilherme Da Silva Souza</p>
+              <img src="linkedin.png" alt="linkedin">
+            </div>
+            <div class="item">
+              <p> @guilhermesouza</p>
+              <img src="instagram.png" alt="instagram">
+            </div>
+            <div class="item">
+              <p> guilhermesouza003@outlook.com</p>
+              <img src="o-email.png" alt="emeil">
+            </div>
+            </div>
+        
+
+           
+          </div>
+          <div class="modal-footer">
+        
+            <button type="button"  class="btn btn-dark"
+              data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        </article>
+        <script src="script_contato.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

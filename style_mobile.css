@@ -1,0 +1,206 @@
+@media screen and (max-width:600px) {
+
+    .menu {
+        width: 100%;
+        background-color: #f7f5e6;
+        height: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        transition: 0.3s;
+
+    }
+
+    .menu ul {
+        display: none;
+        margin-bottom: 100px;
+
+    }
+
+    .menu ul li {
+        list-style: none;
+        padding: 5px;
+        width: 200px;
+        transition: 1.2s;
+
+    }
+
+    section {
+        display: block;
+    }
+
+
+    .habilidades {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 120px;
+
+    }
+
+    #botao {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #botao_menu {
+        background-color: black;
+        border-radius: 10px;
+    }
+
+
+
+    .mobile.menu {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        transition: 0.3s;
+
+    }
+
+    .mobile.menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+
+
+    }
+
+    .mobile.menu a {
+        font-size: 1.6rem;
+
+    }
+
+    .card_eu {
+        display: none;
+    }
+
+    .sobre-mim {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .escrito-sobre-mim {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .cadastro {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .shadow-lg {
+        display: flex;
+        height: 350px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        margin-top: 80px;
+    }
+
+    .campos {
+        padding: 6px;
+        margin: 2px;
+        border-radius: 7px;
+        border: solid 2px #DCDCDC;
+        outline: none;
+        text-align: center;
+        margin-top: 25px;
+        transition: 0.6s;
+    }
+
+    .campos:focus {
+        border: solid 2px #87CEFA;
+        transition: 0.6s;
+    }
+
+
+    .campoE {
+        text-transform: lowercase;
+    }
+
+    .btn-primary {
+        background-color: #006494;
+        margin-right: 10px;
+        border: none;
+    }
+
+    .img-thumbnail {
+        width: 200px;
+        height: 200px;
+    }
+
+    .todas_hablidades {
+        background-color: #f7f5e6;
+        margin-bottom: 600px;
+    }
+
+    .area_p {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 150px;
+        Width: 50%;
+
+    }
+
+    .btn-cadastrar {
+
+        width: 100%;
+        position: relative;
+
+    }
+
+    .btn-C {
+        position: relative;
+        left: 120px;
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    html,
+    body {
+        background-color: #f7f5e6;
+        scroll-behavior: smooth;
+    }
+
+    .card_eu {
+        display: none;
+    }
+
+
+}
+@media screen and (max-width:920px) {
+
+
+    .card_eu {
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,101 @@
+html,body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.cabecalho
+{
+    margin: 0 auto;
+}
+.display-3
+{
+    color:#e8f1f2;
+}
+body {
+    color: #e8f1f2;
+  }
+
+  h3 {
+    text-align: center;
+    color: #e8f1f2;
+  }
+
+  .area {
+    width: 700px;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+
+
+  }
+
+  .form-control {
+    width: 100%;
+
+  }
+
+  .cabecalho {
+    text-align: center;
+  }
+
+  .tabela {
+    margin-bottom: 50px;
+  }
+
+  .table {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .modal-header {
+    background-color: black;
+    color: white;
+  }
+
+
+  .modal-body {
+    background-color: #006494;
+    color: #e8f1f2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-footer {
+    background-color: #006494;
+    color: white;
+  }
+
+  @media screen and (max-width:600px){
+    .area {
+        width:50%;
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        margin: 0 auto;
+    
+    
+      }
+      #qtd_c
+      {
+        position: relative;
+        margin-top: 100px;
+      }
+      .tabela {
+        margin-bottom: 100px;
+      }
+  
+    
+    
+    
+  }

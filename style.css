@@ -1,0 +1,307 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f5e6;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 5px;
+    width: 200px;
+
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: 0.8s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.menu ul li a:hover {
+    transition: 0.8s;
+    color: #1b98e0;
+    border-radius: 3px;
+
+}
+
+section {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+section img {
+    width: 100%;
+
+}
+
+section .p {
+    position: absolute;
+    font-size: 2rem;
+    color: #e8f1f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    right: 50px;
+    bottom: 50%;
+
+}
+
+.card {
+    border: none;
+    cursor: pointer;
+}
+
+.card-body {
+    background-color: black;
+    color: #e8f1f2;
+    font-size: 1.3rem;
+}
+
+.sobre-mim {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.escrito-sobre-mim {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cima:hover {
+    top: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    margin-top: 250px;
+}
+
+.logo {
+    color: #f7f5e6;
+    font-size: 1.4rem;
+}
+
+.rodape-baixo {
+    width: 40%;
+
+}
+
+.rodape-baixo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #006494;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-baixo ul li {
+    list-style: none;
+}
+
+.rodape-baixo ul li a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 1.2rem;
+    color: #e8f1f2;
+
+}
+
+.ir-topo {
+    margin-top: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+
+#botao {
+    display: none;
+}
+
+.cadastro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.shadow-lg {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.campos {
+    padding: 6px;
+    margin: 2px;
+    border-radius: 7px;
+    border: solid 2px #DCDCDC;
+    outline: none;
+    text-align: center;
+    margin-top: 25px;
+    transition: 0.6s;
+}
+
+.campos:focus {
+    border: solid 2px #87CEFA;
+    transition: 0.6s;
+}
+
+
+.campoE {
+    text-transform: lowercase;
+}
+
+.btn-primary {
+    background-color: #006494;
+    margin-right: 10px;
+    border: none;
+}
+
+#idcampos {
+    margin-bottom: 20px;
+}
+
+.container-sm {
+    background-color: #006494;
+    color: #e8f1f2;
+    border-radius: 10px;
+    width: 250px;
+    border: solid 2px red;
+    height: 300px;
+}
+
+
+.btn-close {
+    position: absolute;
+    right: 0;
+    margin-bottom: 50px;
+}
+
+.classes {
+    font-size: 10px;
+}
+
+
+
+.bg-light {
+    border-radius: 20px;
+}
+
+.navbar {
+    width: 50%;
+    height: 100px;
+
+}
+
+.scrollspy-example {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    color: #e8f1f2;
+}
+
+
+.habilidades {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #e2f1f2;
+
+}
+
+.area_p {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    Width: 50%;
+
+}
+
+
+.bg-light {
+    border-radius: 20px;
+
+
+}
+
+.projetos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 80px;
+}
+
+.todas_hablidades {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 80px;
+    width: 100%;
+    background-color: black;
+    height: 700px;
+    border-radius: 5px;
+}
+
+.img-thumbnail {
+    width: 400px;
+    height: 300px;
+
+}
