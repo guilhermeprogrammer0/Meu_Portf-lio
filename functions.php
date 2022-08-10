@@ -1,6 +1,5 @@
 <?php
-
-function Cadastrar($c,$nome,$email)
+function Cadastrar($c, $nome, $email)
 {
 
     if ($_POST) {
