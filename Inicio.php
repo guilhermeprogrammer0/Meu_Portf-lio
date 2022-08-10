@@ -26,34 +26,10 @@
                 <?php
                 error_reporting(0);
                 require_once "conexao.php";
-
+                require_once "functions.php";
+                
                 if ($_POST['enviar']) {
-                    if ($_POST) {
-                        $nome = $_POST['nome'];
-                        $email = $_POST['email'];
-
-                        $sql = "INSERT INTO usuarios values(default,'$nome','$email',NOW())";
-
-                        $cadastro = mysqli_query($conexao, $sql);
-
-                        if ($cadastro == true) {
-                ?>
-                            <script>
-                                alert("Olá, agradecemos seu cadastro! Logo mais receberá novidades!");
-                            </script>
-
-                        <?php
-
-
-                        } else {
-                        ?>
-                            <script>
-                                alert("Erro ao Cadastrar! Tente de novo mais tarde!");
-                            </script>
-                <?php
-
-                        }
-                    }
+                  Cadastrar($conexao,$_POST['nome'],$_POST['email']);
                 }
                 ?>
                 </li>
