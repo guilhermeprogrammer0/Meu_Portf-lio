@@ -87,6 +87,10 @@
                     <p class="card-text" style="text-align:
                             center;">Programador</p>
                 </div>
+
+            </div>
+            <div class="area_curriculo">
+                <a href="Currículo Guilherme Souza.pdf" class="btn btn-primary area_curriculo" download>Baixar Currículo</a>
             </div>
         </div>
     </section>

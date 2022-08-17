@@ -303,3 +303,10 @@ section .p {
     height: 300px;
 
 }
+.area_curriculo
+{
+   margin-top:10px;
+    display:flex;
+    justify-content: center;
+ 
+}
