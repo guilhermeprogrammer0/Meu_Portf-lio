@@ -64,8 +64,11 @@ section .p {
     color: #e8f1f2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     right: 50px;
-    bottom: 50%;
+    bottom: 40%;
+}
 
+.p .card_eu {
+    width: 15.3rem;
 }
 
 .card {
@@ -77,6 +80,11 @@ section .p {
     background-color: black;
     color: #e8f1f2;
     font-size: 1.3rem;
+}
+
+.body-eu .card-text {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .sobre-mim {
@@ -303,10 +311,10 @@ section .p {
     height: 300px;
 
 }
-.area_curriculo
-{
-   margin-top:10px;
-    display:flex;
+
+.area_curriculo {
+    margin-top: 10px;
+    display: flex;
     justify-content: center;
- 
+
 }

@@ -78,21 +78,19 @@
             <img src="imagem.jpg">
         </div>
         <div class="p">
-            <div class="card card_eu" style="width: 15.3rem;">
-                <img src="EU.jpg" class="card-img-top" alt="EU">
-                <div class="card-body">
-                    <p class="card-text" style="text-align:
-                            center;">Guilherme
+            <div class="card card_eu">
+                <img src="eu.png" class="card-img-top" alt="EU">
+                <div class="card-body body-eu">
+                    <p class="card-text">Guilherme
                         Souza</p>
-                    <p class="card-text" style="text-align:
-                            center;">Programador</p>
+                    <p class="card-text" ">Programador</p>
                 </div>
 
             </div>
-            <div class="area_curriculo">
-                <a href="Currículo Guilherme Souza.pdf" class="btn btn-primary area_curriculo" download>Baixar Currículo</a>
+            <div class=" area_curriculo">
+                        <a href="Currículo Guilherme Souza.pdf" class="btn btn-primary" download>Baixar Currículo</a>
+                </div>
             </div>
-        </div>
     </section>
 
     <div>
